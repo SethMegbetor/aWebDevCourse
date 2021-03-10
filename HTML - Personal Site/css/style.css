@@ -1,7 +1,7 @@
-body{
-  background-color: #EAF6F6;
+body {
+  background-color: #eaf6f6;
 }
-hr{
+hr {
   border-style: none;
   border-top-style: dotted;
   border-color: gray;
@@ -9,6 +9,18 @@ hr{
   width: 10%;
 }
 
-h1,h3{
+h1,
+h3 {
   color: #66bfbf;
+}
+
+p {
+  color: red;
+}
+.secondParagraph {
+  color: yellow;
+}
+
+#forSkills {
+  color: red;
 }
