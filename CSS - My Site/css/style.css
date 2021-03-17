@@ -9,16 +9,36 @@ div {
 }
 
 h1 {
-  margin-top: 0;
   font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  line-height: 2;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  margin-top: 50px;
+}
+
+h1,
+h2 {
+  color: #66bfbf;
+}
+
+a,
+h3 {
+  color: #11999e;
 }
 
 h3 {
   font-family: "Montserrat", sans-serif;
+}
+
+.bottom-container {
+}
+
+.middle-container {
 }
 
 .top-container {
@@ -27,20 +47,12 @@ h3 {
   padding-top: 100px;
 }
 
-.middle-container {
-  background-color: red;
-  width: 200px;
-  height: 200px;
-}
-
-.bottom-container {
-  background-color: blue;
-  width: 200px;
-  height: 200px;
-}
-
 .pro {
   text-decoration: underline;
+}
+
+#pro {
+  font-weight: normal;
 }
 
 .bottom-cloud {
